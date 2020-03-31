@@ -1,5 +1,7 @@
 # Create a new map using React Leaflet
 
+React Leaflet map example using the `Map` and `TileLayer` components with a OpenStreetMap basemap.
+
 ## Getting Started
 * Install dependencies
 ```
