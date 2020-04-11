@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.leaflet-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.circle-magic-kingdom {
+  fill: none;
+  stroke: red;
+  stroke-width: 5px;
+  animation: MagicKingdom infinite 5s;
+  transition: stroke-width .5s;
+}
+
+.circle-magic-kingdom:hover {
+  stroke-width: 15px;
+}
+
+@keyframes MagicKingdom {
+  0% {
+    stroke: red;
+  }
+  14% {
+    stroke: orange;
+  }
+  28% {
+    stroke: yellow;
+  }
+  43% {
+    stroke: lime;
+  }
+  57% {
+    stroke: blue;
+  }
+  71% {
+    stroke: blueviolet;
+  }
+  85% {
+    stroke: magenta;
+  }
+  100% {
+    stroke: red;
+  }
+}
