@@ -46,7 +46,7 @@ function App() {
       }
     });
 
-    parksGeojson.addTo(map);
+    parksGeoJson.addTo(map);
   }, [])
 
   return (
