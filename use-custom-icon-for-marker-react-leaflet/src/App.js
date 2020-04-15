@@ -6,7 +6,7 @@ import 'leaflet/dist/leaflet.css';
 
 import nationalParks from './national-parks.json';
 import treeMarker from './images/tree-marker.png';
-import markerShadow from './images/marker-shadow.png';
+import markerShadow from 'leaflet/dist/images/marker-shadow.png';
 
 function App() {
   const mapRef = useRef();
