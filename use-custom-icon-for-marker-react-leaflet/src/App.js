@@ -6,7 +6,11 @@ import 'leaflet/dist/leaflet.css';
 
 import nationalParks from './national-parks.json';
 import treeMarker from './images/tree-marker.png';
-import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+
+// Importing images from locally stored assets to address a bug
+// in CodeSandbox: https://github.com/codesandbox/codesandbox-client/issues/3845
+// import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+import markerShadow from './images/marker-shadow.png';
 
 function App() {
   const mapRef = useRef();
