@@ -35,7 +35,7 @@ function App() {
 
     if ( !map ) return;
 
-    const parksGeojson = new L.GeoJSON(nationalParks, {
+    const parksGeoJson = new L.GeoJSON(nationalParks, {
       onEachFeature: (feature = {}, layer) => {
         const { properties = {} } = feature;
         const { Name } = properties;
