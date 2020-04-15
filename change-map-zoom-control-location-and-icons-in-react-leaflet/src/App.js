@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Map center={[0, 0]} zoom={4} zoomControl={false}>
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution="&copy; <a href=&quot;https://www.openstreetmap.org/copyright&quot;>OpenStreetMap</a> contributors" />
-        <ZoomControl position="topright" zoomInText="🧐" zoomOutText="🗺️" />
+        <ZoomControl position="bottomright" zoomInText="🧐" zoomOutText="🗺️" />
       </Map>
     </div>
   );
