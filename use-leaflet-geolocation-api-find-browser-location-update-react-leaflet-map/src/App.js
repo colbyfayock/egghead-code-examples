@@ -15,11 +15,14 @@ function App() {
     const { leafletElement: map } = current;
 
     map.locate({
-      setView: true,
-      maxZoom: 13
+      setView: true
     });
 
     map.on('locationfound', handleOnLocationFound);
+
+    // Additional event handler for listening for
+    // errors in finding someone's location
+
     map.on('locationerror', handleOnLocationError);
 
     return () => {
