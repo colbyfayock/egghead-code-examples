@@ -48,15 +48,15 @@
  */
 
 .leaflet-container .geocoder-control-input {
-  background-image: url('~./images/search.png');
+  background-image: url('/images/search.png');
 }
 
 .leaflet-container .geocoder-control-input-disabled {
-  background-image: url('~./images/search-disabled.png')
+  background-image: url('/images/search-disabled.png')
 }
 
 .leaflet-container .geocoder-control-input.geocoder-control-loading {
-  background-image: url('~./images/loading.gif');
+  background-image: url('/images/loading.gif');
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 2),
@@ -64,14 +64,14 @@ only screen and (-o-min-device-pixel-ratio: 2 / 1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
   .leaflet-container .geocoder-control-input {
-    background-image: url('~./images/search@2x.png')
+    background-image: url('/images/search@2x.png')
   }
 
   .leaflet-container .geocoder-control-input-disabled {
-    background-image: url('~./images/search@2x-disabled.png')
+    background-image: url('/images/search@2x-disabled.png')
   }
 
   .leaflet-container .geocoder-control-input.geocoder-control-loading {
-    background-image: url('~./images/loading@2x.gif')
+    background-image: url('/images/loading@2x.gif')
   }
 }
