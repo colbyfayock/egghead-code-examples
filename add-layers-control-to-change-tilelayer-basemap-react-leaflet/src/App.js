@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Map center={[27.9881, 86.9250]} zoom={6}>
-        <LayersControl position="topright">
+        <LayersControl>
           <BaseLayer checked name="OpenStreetMap">
             <TileLayer
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
