@@ -14,10 +14,14 @@ function App() {
     const { current = {} } = mapRef;
     const { leafletElement: map } = current;
 
-    map.locate({
-      setView: true,
-      maxZoom: 13
-    });
+    // Commenting this out to avoid blocked location requests
+    // when embedded on the Egghead lesson page. To give this
+    // a try, simply uncomment out the function call below
+
+    // map.locate({
+    //   setView: true,
+    //   maxZoom: 13
+    // });
 
     map.on('locationfound', handleOnLocationFound);
     map.on('locationerror', handleOnLocationError);
