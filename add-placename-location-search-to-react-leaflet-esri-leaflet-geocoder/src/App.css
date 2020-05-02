@@ -41,3 +41,37 @@
   width: 100vw;
   height: 100vh;
 }
+
+/**
+ * The styles setting up the images below were added to this demo
+ * to avoid import issues when embedded with Codesandbox.
+ */
+
+.geocoder-control-input {
+  background-image: url('./images/search.png');
+}
+
+.geocoder-control-input-disabled {
+  background-image: url('./images/search-disabled.png')
+}
+
+.geocoder-control-input.geocoder-control-loading {
+  background-image: url('./images/loading.gif');
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2 / 1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+  .geocoder-control-input {
+    background-image: url('./images/search@2x.png')
+  }
+
+  .geocoder-control-input-disabled {
+    background-image: url('./images/search@2x-disabled.png')
+  }
+
+  .geocoder-control-input.geocoder-control-loading {
+    background-image: url('./images/loading@2x.gif')
+  }
+}
