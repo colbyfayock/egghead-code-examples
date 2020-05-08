@@ -7,7 +7,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "leaflet": "^1.6.0",
-    "leaflet.antimeridian": "https://github.com/briannaAndCo/Leaflet.Antimeridian",
+    "leaflet.antimeridian": "briannaAndCo/Leaflet.Antimeridian",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-leaflet": "^2.6.3",

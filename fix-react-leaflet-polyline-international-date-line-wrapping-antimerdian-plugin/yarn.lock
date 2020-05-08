@@ -6231,9 +6231,9 @@ lcid@^2.0.0:
   dependencies:
     invert-kv "^2.0.0"
 
-"leaflet.antimeridian@https://github.com/briannaAndCo/Leaflet.Antimeridian":
+leaflet.antimeridian@briannaAndCo/Leaflet.Antimeridian:
   version "1.0.0"
-  resolved "https://github.com/briannaAndCo/Leaflet.Antimeridian#7986dc5b68836630611c15dcbd8c8c48409d5798"
+  resolved "https://codeload.github.com/briannaAndCo/Leaflet.Antimeridian/tar.gz/7986dc5b68836630611c15dcbd8c8c48409d5798"
 
 leaflet@^1.6.0:
   version "1.6.0"
