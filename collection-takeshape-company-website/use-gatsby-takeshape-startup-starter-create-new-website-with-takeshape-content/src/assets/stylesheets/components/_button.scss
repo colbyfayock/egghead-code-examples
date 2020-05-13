@@ -1,0 +1,15 @@
+/* Buttons */
+.button {
+  background-color: #e4f8ee;
+  padding: 2rem 3rem;
+  display: inline-block;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.button--dark {
+  background-color: $color-blue-magenta;
+  color: #fff;
+}
