@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 import { useSiteMetadata } from 'hooks';
 
-import logo from 'assets/images/egghead-logo.png';
+import logo from 'assets/images/logo.svg';
 
 const Header = () => {
   const { companyName } = useSiteMetadata();

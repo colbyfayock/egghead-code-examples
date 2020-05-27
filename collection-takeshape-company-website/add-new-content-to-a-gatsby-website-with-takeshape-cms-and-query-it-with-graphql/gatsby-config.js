@@ -1,10 +1,10 @@
 require("dotenv").config();
 
 const metadata = {
-  companyName: 'egghead.io',
-  companyUrl: 'https://egghead.io/',
-  authorName: 'egghead.io',
-  authorUrl: 'https://egghead.io/',
+  companyName: 'Shape Startup',
+  companyUrl: 'https://www.takeshape.io/',
+  authorName: 'TakeShape, Inc.',
+  authorUrl: 'https://www.takeshape.io/',
   siteUrl: 'https://gatsby-starter-takeshape-startup.netlify.com'
 }
 
