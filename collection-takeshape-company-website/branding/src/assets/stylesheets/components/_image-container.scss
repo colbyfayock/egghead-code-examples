@@ -1,0 +1,12 @@
+.image-container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
