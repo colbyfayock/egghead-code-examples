@@ -1,0 +1,11 @@
+{
+  "name": "create-new-github-action-that-logs-hello-world-javascript-nodejs",
+  "version": "1.0.0",
+  "description": "Egghead - Create a New Github Action with Javascript",
+  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}
