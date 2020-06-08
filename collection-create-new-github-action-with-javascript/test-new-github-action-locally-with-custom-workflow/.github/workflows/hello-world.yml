@@ -1,0 +1,9 @@
+name: "Hello World"
+
+on: [push, pull_request]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: ./
