@@ -1,0 +1,7 @@
+name: 'Hello World'
+description: 'Egghead - Create a New Github Action with Javascript'
+author: 'Colby Fayock <hello@colbyfayock.com>'
+
+runs:
+  using: 'node12'
+  main: 'index.js'
