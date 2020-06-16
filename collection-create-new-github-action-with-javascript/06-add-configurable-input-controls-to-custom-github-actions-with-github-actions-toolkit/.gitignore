@@ -1,0 +1,4 @@
+# You do not want to add the dist directory here, as we need
+# the files locally in order to run the them in the action
+
+node_modules
