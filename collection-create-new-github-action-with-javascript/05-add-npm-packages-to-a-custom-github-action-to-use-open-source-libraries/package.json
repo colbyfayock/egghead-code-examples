@@ -1,0 +1,16 @@
+{
+  "name": "egghead-demo-github-action-futurama-zoidberg-quote",
+  "version": "1.0.0",
+  "description": "Log a quote from your favorite Futurama character!",
+  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "bump": "npm version"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3",
+    "axios": "^0.19.2"
+  }
+}

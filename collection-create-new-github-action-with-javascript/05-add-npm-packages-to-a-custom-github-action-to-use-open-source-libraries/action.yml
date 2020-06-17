@@ -1,0 +1,7 @@
+name: 'Futurama Dr. Zoidberg Quote'
+description: 'Log a quote from your favorite Futurama character!'
+author: 'Colby Fayock <hello@colbyfayock.com>'
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
