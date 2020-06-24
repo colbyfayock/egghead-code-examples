@@ -3497,8 +3497,6 @@ async function run() {
     return;
   }
 
-  console.log(`Retrieving quote for: ${character}`);
-
   const response = await axios.get(`https://futuramaapi.herokuapp.com/api/characters/${character}/1`);
   const { data = [] } = response;
   const firstEntry = data[0];
