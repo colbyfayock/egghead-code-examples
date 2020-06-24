@@ -1,0 +1,23 @@
+name: "Hello World"
+
+on: [push, pull_request]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ./
+      with:
+        character: bender
+      id: futurama
+    - run: echo ${{steps.futurama.outputs.quote}}
+  failing-character:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ./
+      with:
+        character: colby
+      id: futurama
+    - run: echo ${{steps.futurama.outputs.quote}}
