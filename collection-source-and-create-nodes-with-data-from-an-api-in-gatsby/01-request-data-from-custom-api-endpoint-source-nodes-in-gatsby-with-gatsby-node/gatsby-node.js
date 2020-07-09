@@ -12,6 +12,4 @@ exports.sourceNodes = async () => {
   }));
 
   console.log('pokemon', pokemon);
-
-  return;
 };
