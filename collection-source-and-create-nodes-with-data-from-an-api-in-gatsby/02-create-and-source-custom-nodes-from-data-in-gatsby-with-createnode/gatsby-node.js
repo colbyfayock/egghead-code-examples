@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 
 const NODE_TYPE = 'Pokemon';
 
-exports.sourceNodes = async ({ actions, createContentDigest, createNodeId, getNodesByType }) => {
+exports.sourceNodes = async ({ actions, createContentDigest, createNodeId }) => {
   const { createNode } = actions;
 
   const response = await fetch('https://pokeapi.co/api/v2/pokemon');
@@ -16,7 +16,7 @@ exports.sourceNodes = async ({ actions, createContentDigest, createNodeId, getNo
   }));
 
   pokemon.forEach((node, index) => {
-    return createNode({
+    createNode({
       ...node,
       id: createNodeId(`${NODE_TYPE}-${node.id}`),
       parent: null,
@@ -28,6 +28,4 @@ exports.sourceNodes = async ({ actions, createContentDigest, createNodeId, getNo
       }
     });
   });
-
-  return;
 };
