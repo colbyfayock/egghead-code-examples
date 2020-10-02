@@ -12,6 +12,6 @@
   "devDependencies": {
     "@zeit/ncc": "^0.22.3",
     "axios": "^0.19.2",
-    "@actions/core": "^1.2.4"
+    "@actions/core": "^1.2.6"
   }
 }
